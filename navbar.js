@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const menuButton = document.getElementById("menuButton");
     const topnav = document.getElementById("topnav");
     const container = document.getElementById("container");
-    const elementsToHide = document.querySelectorAll(".element-to-hide"); // Add a class to elements you want to hide
+    const elementsToHide = document.querySelectorAll(".element-to-hide"); // Add element-to-hide to all HTML elements you want to hide
     const siteHeader = document.getElementById("siteheader"); // Exclude the 'siteheader' element
 
     let isOpen = false;
